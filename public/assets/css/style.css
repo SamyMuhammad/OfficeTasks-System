@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'cairo';
+    src: url('../fonts/Cairo/Cairo-Regular.ttf');
+}
+
+html, body, body *{
+    font-family: 'cairo',sans-serif,"Open Sans";
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.page-header.navbar .page-logo .logo-default{
+    width: 100px;
+    margin: 0;
+    overflow: hidden;
+}
+
+textarea {
+    resize: none;
+}
+
+/* For Tools buttons pdf, csv, ... */
+div.dt-buttons, #sample_1_paginate, #sample_1_info, #sample_1_length{
+    display: none;
+}
+
+.table td{
+    font-size: 15px;
+}
+
+.lang-link{
+    display: inline-block;
+    margin: 14px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.lang-link:hover{
+    color: #FFF;
+}
+
+.login-link{
+    position: absolute;
+    top: 40px;
+    left: 47%;
+}
+
+.mt-5{
+    margin-top: 5px !important;
+}
+
+form.destroy-form{
+    display: inline-block;
+}
+
+img.form-photo{
+    width: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.show-data{
+    font-size: 17px;
+}
+
+div.data-group{
+    margin-bottom: 20px;
+}
+
+div.invoice-block{
+    margin-top: 25px;
+}
+
+td img.table-photo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+td.iteration{
+    width: 4%;
+}
+
+hr.roles {
+    margin: 13px 0;
+}
+
+.data-group>:first-child{
+    font-weight: bold;  
+}
+
+table.show-data, .show-data th, .show-data td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.show-data{
+    width: 100%;
+}
+
+.show-data th, .show-data td {
+    padding: 5px;
+    text-align: center;
+}
+
+.no-border{
+    border: none !important;
+}
+
+.width-auto{
+    width: auto !important;
+}
+/* .ml-5{
+    margin-left: 5px !important;
+} */
+
+.md-checkbox-inline .md-checkbox {
+    /* width: 210px; */
+    /* width: 30%; */
+    min-width: 155px;
+    margin-bottom: 15px;
+}
+
+.dir-ltr{
+    direction: ltr !important;
+}
+
+.dir-rtl{
+    direction: rtl !important;
+}
+
+.bootstrap-timepicker-widget{
+    direction: ltr;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-bold{
+    font-weight: 800 !important;
+}
+
+.children-font-size-15 *{
+    font-size: 15px !important;
+}
+
+.font-size-15{
+    font-size: 15px !important;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.time-radio{
+    width: 100px;
+    font-size: 14px;
+    height: 30px;
+    margin-right: 0 !important;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+
+.mr-0{
+    margin-right: 0 !important;
+}
+
+.pdr-0{
+    padding-right: 0 !important;
+}
+
+.pdl-0{
+    padding-left: 0 !important;
+}
+
+tr.receipt-table-titles th{
+    background-color: #d5d3d3;
+}
+
+.receipt{
+    background: #FFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.font-size-17{
+    font-size: 17px !important;
+}
+
+.margin-top-25{
+    margin-top: 25px !important;
+}
